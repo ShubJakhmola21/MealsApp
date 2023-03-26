@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+#meal-heading
+{
+    text-decoration:none;
+    color:white;
+}
+header {
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  margin: 20px;
+  padding:20px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type=text] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#favourite-heading
+{
+    text-align: center;
+    border: 1px solid black;
+    margin:20px;
+    padding:20px;
+}
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#meals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.meal {
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+.meal img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.meal h2 {
+  margin-top: 0;
+}
+
+.meal p {
+  margin: 0;
+}
+
+#search-input
+{
+    border:1px solid black;
+    margin-right: 10px;
+}
